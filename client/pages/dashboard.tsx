@@ -1,41 +1,43 @@
 import React, { useEffect } from "react";
-// import "./dashboard.css";
+// import "./Dashboard.css";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, db } from "../utils/firebase";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import { useAccount } from "wagmi";
 // import ClassCard from "../components/ClassCard";
 
 function Dashboard() {
-  const [user, loading, error] = useAuthState(auth);
+  // const [user, loading, error] = useAuthState(auth);
   const [classes, setClasses] = useState([]);
   const history = useNavigate();
+  const { address, isConnecting, isDisconnected } = useAccount();
 
-  const fetchClasses = async () => {
-    try {
-      await db
-        .collection("users")
-        .where("uid", "==", user?.uid)
-        .onSnapshot((snapshot: any) => {
-          setClasses(snapshot?.docs[0]?.data()?.enrolledClassrooms);
-        });
-      // 👇🏻 below code doesn't update realtime, so updated to snapshot listener
-      // const userData = querySnapshot.docs[0].data();
-      // setClasses(userData.enrolledClassrooms);
-    } catch (error: any) {
-      console.error(error.message);
-    }
-  };
-
-  useEffect(() => {
-    if (loading) return;
-    // if (!user) history.replace("/");
-  }, [user, loading]);
+  // const fetchClasses = async () => {
+  //   try {
+  //     await db
+  //       .collection("users")
+  //       .where("uid", "==", user?.uid)
+  //       .onSnapshot((snapshot: any) => {
+  //         setClasses(snapshot?.docs[0]?.data()?.enrolledClassrooms);
+  //       });
+  //     // 👇🏻 below code doesn't update realtime, so updated to snapshot listener
+  //     // const userData = querySnapshot.docs[0].data();
+  //     // setClasses(userData.enrolledClassrooms);
+  //   } catch (error: any) {
+  //     console.error(error.message);
+  //   }
+  // };
 
   useEffect(() => {
-    if (loading) return;
-    fetchClasses();
-  }, [user, loading]);
+    // if (loading) return;
+    if (!address) history("/");
+  }, [address]);
+
+  // useEffect(() => {
+  //   if (loading) return;
+  //   fetchClasses();
+  // }, [user, loading]);
 
   return (
     <div className="dashboard">
