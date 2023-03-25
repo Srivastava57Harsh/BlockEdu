@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { signInWithGoogle } from "../utils/firebase";
+// import { signInWithGoogle } from "../utils/firebase";
 // import "./Home.css";
 import { useAccount } from "wagmi";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
@@ -22,9 +22,9 @@ function Home() {
           alt="Google Classroom Image"
           className="home__image"
         /> */}
-        <button className="home__login" onClick={signInWithGoogle}>
-          <ConnectButton />
-        </button>
+        {/* <button className="home__login" onClick={signInWithGoogle}> */}
+        <ConnectButton />
+        {/* </button> */}
       </div>
     </div>
   );
