@@ -1,6 +1,6 @@
 # BlockEdu
 <div align="center">
-![WhatsApp Image 2023-03-26 at 19 21 56](https://user-images.githubusercontent.com/58087328/227780499-e55530b2-5cb2-49c4-a92d-821c762f2ba0.jpg)
+  <img alt="ETHforAll" src="docs/Logo.jpg" height="300"/>
 </div>
 
 <br>
@@ -43,6 +43,18 @@ With our team's expertise, passion, and commitment to excellence, we are confide
 - Increasing Competition in the Educational Technology Market
 
 # 📺 Preview
+<div align="center">
+  <img alt="ETHforAll" src="docs/Wallet Connect.png" />
+</div>
+<div align="center">
+  <img alt="ETHforAll" src="docs/Logo.jpg"/>
+</div>
+<div align="center">
+  <img alt="ETHforAll" src="docs/Logo.jpg" />
+</div>
+<div align="center">
+  <img alt="ETHforAll" src="docs/Logo.jpg" />
+</div>
 
 # 💻 Tech Stack
 
@@ -51,6 +63,8 @@ With our team's expertise, passion, and commitment to excellence, we are confide
 - Polygon
 - Superfluid  
 - Push
+- Graph
+- Scroll
 
 # ⏭️ What's next
 
