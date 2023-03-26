@@ -15,7 +15,8 @@ Welcome to our revolutionary project, a university portal that is designed to en
 
 Our portal includes several innovative features, including an announcements tab that uses push protocol notifications to keep students informed about the latest news and updates, and filecoin storage for student assignments that ensures data privacy and security. 
 
-Additionally, we have incorporated the use of Polygon ZK-EVM network for faster transactions in Ethereum chain, and the revolutionary Superfluid platform for students to pay their tuition fees on the go, streamlining the payment process for greater ease and flexibility. 
+Additionally, we have incorporated the use of Polygon ZK-EVM network for faster transactions in Ethereum chain, and the revolutionary Superfluid platform for students to pay their tuition fees on the go, streamlining the payment process for greater ease and flexibility.
+We are dispatching degree certificates in the form of of ERC721 SBT using scroll.
 
 With our team's expertise, passion, and commitment to excellence, we are confident that this project will transform the way students experience education, and set a new standard for university portals across the world.
 ✨🔥
@@ -31,6 +32,7 @@ With our team's expertise, passion, and commitment to excellence, we are confide
 - Integration with a range of learning management systems and educational tools to enhance the overall educational experience.
 - A personalized dashboard for each student that provides real-time updates on their academic progress, grades, and feedback from teachers.
 - A robust analytics system that tracks student performance and identifies areas for improvement.
+- We are dispatching degree certificates in the form of of ERC721 SBT using scroll.
 
 
 # 🧠 Market Opportunities
