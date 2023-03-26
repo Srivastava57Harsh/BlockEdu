@@ -1,8 +1,0 @@
-{
-  "goerli": {
-    "Protocol": {
-      "address": "0x4179811dB70C1dcBeFA0274891946694E29efA04",
-      "startBlock": 8485446
-    }
-  }
-}
