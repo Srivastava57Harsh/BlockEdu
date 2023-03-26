@@ -5,7 +5,7 @@
 
 <br>
 <p align="center">
-<b>Our Team presents SigmaStart
+<b>Our Team presents BlockEdu
 </p>
 <blockquote align="center">built on <span style="color: #8b0000;">☕</span> at <a href="https://ethglobal.com/events/scaling2023">Scaling Ethereum 2023</a>.</blockquote>
 
