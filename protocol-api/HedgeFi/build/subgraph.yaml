@@ -1,0 +1,33 @@
+specVersion: 0.0.5
+schema:
+  file: schema.graphql
+dataSources:
+  - kind: ethereum
+    name: Protocol
+    network: goerli
+    source:
+      address: "0x4179811dB70C1dcBeFA0274891946694E29efA04"
+      abi: Protocol
+      startBlock: 8485446
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Claim
+        - Divest
+        - Invest
+        - RiskSplit
+      abis:
+        - name: Protocol
+          file: Protocol/abis/Protocol.json
+      eventHandlers:
+        - event: Claim(indexed address,uint256,uint256,uint256,uint256,uint256)
+          handler: handleClaim
+        - event: Divest(uint256,uint256,uint256,uint256)
+          handler: handleDivest
+        - event: Invest(uint256,uint256,uint256,uint256)
+          handler: handleInvest
+        - event: RiskSplit(indexed address,uint256)
+          handler: handleRiskSplit
+      file: Protocol/Protocol.wasm

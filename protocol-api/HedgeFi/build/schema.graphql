@@ -1,0 +1,43 @@
+type Claim @entity(immutable: true) {
+  id: Bytes!
+  claimant: Bytes! # address
+  amount_A: BigInt! # uint256
+  amount_B: BigInt! # uint256
+  amount_c: BigInt! # uint256
+  amount_cx: BigInt! # uint256
+  amount_cy: BigInt! # uint256
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type Divest @entity(immutable: true) {
+  id: Bytes!
+  amount_c: BigInt! # uint256
+  amount_cx: BigInt! # uint256
+  amount_cy: BigInt! # uint256
+  amount_c_incentive: BigInt! # uint256
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type Invest @entity(immutable: true) {
+  id: Bytes!
+  amount_c: BigInt! # uint256
+  amount_cx: BigInt! # uint256
+  amount_cy: BigInt! # uint256
+  amount_c_incentive: BigInt! # uint256
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type RiskSplit @entity(immutable: true) {
+  id: Bytes!
+  splitter: Bytes! # address
+  amount_c: BigInt! # uint256
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
