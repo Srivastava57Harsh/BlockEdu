@@ -43,17 +43,45 @@ With our team's expertise, passion, and commitment to excellence, we are confide
 - Increasing Competition in the Educational Technology Market
 
 # 📺 Preview
+### Home page
 <div align="center">
   <img alt="ETHforAll" src="docs/Wallet Connect.png" />
 </div>
+<br/>
+
+### Dashbaord
 <div align="center">
-  <img alt="ETHforAll" src="docs/Logo.jpg"/>
+  <img alt="ETHforAll" src="docs/Dashboard.png"/>
 </div>
+<br/>
+
+### Create Class
 <div align="center">
-  <img alt="ETHforAll" src="docs/Logo.jpg" />
+  <img alt="ETHforAll" src="docs/Create Class.png" />
 </div>
+<br/>
+
+### Discussion
 <div align="center">
-  <img alt="ETHforAll" src="docs/Logo.jpg" />
+  <img alt="ETHforAll" src="docs/Comment.png" />
+</div>
+<br/>
+
+### Submission
+<div align="center">
+  <img alt="ETHforAll" src="docs/Submit Assignment.png" />
+</div>
+<br/>
+
+### Claim Certifiacte Degree
+<div align="center">
+  <img alt="ETHforAll" src="docs/Claim Certificate.png" />
+</div>
+<br/>
+
+### Pay Fees
+<div align="center">
+  <img alt="ETHforAll" src="docs/Feekart new.png" />
 </div>
 
 # 💻 Tech Stack
