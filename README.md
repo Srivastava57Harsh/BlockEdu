@@ -109,6 +109,6 @@ Please read [`Contributing.md`](https://contributing.md/) for details on our cod
 
 # 💥 Contributors
 <a href="https://github.com/Srivastava57Harsh/BlockEdu/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=Srivastava57Harsh/BlockEdu" alt="Contributors">
+  <img src="https://contrib.rocks/image?repo=Srivastava57Harsh/BlockEdu" />
 </a>
 
